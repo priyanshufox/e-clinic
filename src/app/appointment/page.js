@@ -94,8 +94,7 @@ const AppointmentPage = () => {
 
                 </form>
             </section>
-        </div>
-    )
+        </div>    )
 }
 
 export default AppointmentPage

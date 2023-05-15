@@ -30,11 +30,11 @@ const Navbar = () => {
         },
         {
             name:"patient",
-            link:"/patient"
+            link:"/patients"
         },
         {
             name:"services",
-            link:"/services"
+            link:"/service"
         },
         {
             name:"doctors",
@@ -42,7 +42,7 @@ const Navbar = () => {
         },
         {
             name:"contact",
-            link:"/contact"
+            link:"/appointment"
         }
     ]
 

@@ -47,6 +47,9 @@ const DoctorPage = () => {
                                                 {appointment.name}
                                             </span>
                                         </div>
+                                        <button
+                                            className="px-2 py-1 text-sm text-green-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-green-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-offset-2">Accept
+                                        </button>
                                     </div>
                                 </div>
                             </div>

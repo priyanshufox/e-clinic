@@ -1,3 +1,4 @@
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -5,7 +6,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 import { Navbar } from "@/components"
 import { Providers } from './provider'
-import Footer from "@/components/footer";
 
 export const metadata = {
   title: 'E Clinic',
@@ -14,6 +14,7 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} `}>
@@ -22,7 +23,6 @@ export default function RootLayout({ children }) {
             <div className={'min-h-[calc(100vh-23rem)] container mx-auto'}>
                 {children}
             </div>
-            <Footer/>
         </Providers>
       </body>
     </html>
